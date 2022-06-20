@@ -25,6 +25,7 @@ The hamburger menu should display the following behavior:
 1. Clicking outside of `.hamburger-menu` should close the menu if it is open.
 1. Clicking inside of `.hamburger-menu` should NOT close the menu.
 1. Pressing the Escape key when the menu is open should close the menu and focus `button.hamburger-btn`.
+'-----------------'
 1. Under all circumstances, when the menu is open, `aria-expanded` should be set to `true` on `button.hamburger-btn`, and set to `false` when the menu is closed.
 
 The included automated tests check for the behavior listed above.
